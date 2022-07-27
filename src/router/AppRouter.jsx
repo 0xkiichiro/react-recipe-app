@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 import { GlobalStyles } from "../components/globalStyles/Global.styles";
 import Navbar from "../components/nav/Navbar";
 import Home from "../pages/home/Home";
@@ -10,7 +10,7 @@ import PrivateRouter from "./PrivateRouter";
 
 const AppRouter = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <GlobalStyles />
       <Navbar />
       <Routes>
@@ -24,7 +24,7 @@ const AppRouter = () => {
           <Route path="" element={<Details />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
