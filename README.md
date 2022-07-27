@@ -3,6 +3,10 @@
 Multi page recipe app. You type a ingredient and a meal time and it returns you food suggestions that you can cook with that specific ingredient.
 When you click on the recipe you are interested in it takes you to a new page with detailed instructions and image of the food.
 
+API used: https://www.edamam.com/; 
+
+API Key is in .env folder that has not been uploaded in github.
+
 Site Layout:
 ![](https://github.com/0xkiichiro/react-recipe-app/blob/master/recipe-app.png)
 
